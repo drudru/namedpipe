@@ -1,0 +1,18 @@
+NamedPipe
+==============
+
+A class that manages a simple named-pipe resource
+on a Unix filesystem. This class is essentially a
+nice abstraction over the "easy to forget" details
+of working with named pipes on that 30 year old 
+API we call Unix.
+
+The system is designed to be resilient and safe
+for multi-process use. It is meant to be used
+as a component in a larger project.
+
+
+AUTHOR: Dru Nelson - "dru" * 2 + '@gmail.com'
+
+License: BSD Like
+
